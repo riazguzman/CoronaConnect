@@ -1,0 +1,49 @@
+body {
+  background-color: whitesmoke;
+}
+
+.post_name {
+  color: black;
+}
+
+.post {
+  display: block;
+  background-color: beige;
+  width: 80%;
+  margin-top: 5%;
+  margin-left: 5%;
+  padding: 2.5%;
+}
+
+.alert {
+  padding: 0.8rem;
+  margin: 1rem 0;
+  opacity: 0.9;
+  background: red;
+  color: #333;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 2.5% 5% 0 5%;
+}
+
+.postContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 200%;
+}
+
+.post_name {
+  font-size: 200%;
+}
+
+.post_title,
+.post_text {
+  font-size: 150%;
+  margin-top: 2%;
+}
